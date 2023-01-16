@@ -1,0 +1,211 @@
+@media screen and (max-width: 1896px) {
+    .padding{
+        display: flex;
+        flex-direction: column;
+        gap: 230px;
+        padding-top: 180px;
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 120px;
+        padding-left: 200px;
+        padding-bottom: 120px;
+        padding-right: 200px;;
+        background-color: #302E2B;
+        margin-top: 200px;
+    }
+    .facts2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #302E2B;
+    }
+    .fatcs{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .title{
+        padding-right: 200px;
+    }
+    h1{
+        font-size: 128px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    .block-img {
+        min-width: 400px;
+    }
+    .tariffimg1{
+        min-width: 400px;
+    }
+    .tariffimg2{
+        min-width: 400px;
+    }
+    .footer{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1440px){
+    .title{
+        padding-top: 100px;
+        padding-left: 130px;
+    }
+    .padding{
+        padding-top: 180px;
+        padding-right: 130px;
+        padding-left: 130px;
+    }
+    footer{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .footer{
+        max-width: 800px;
+    }
+    .facts{
+        width: 100%;
+    }
+    .facts2{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .schtext{
+        height: 540px;
+    }
+    .block-img {
+        height: 540px;
+    }
+    .schtext_info{
+        margin-right: 0;
+        gap: 20px;
+    }
+    .titlebtns{
+        width: 150px;
+        height: 65px;
+    }
+    .f{
+        width: 120px;
+    }
+    .tarifftext {
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 1278px) {
+    .schtext{
+        padding-left: 40px;
+    }
+    .schtext_info{
+        margin-top: 50px;
+    }
+    .bold{
+        font-size: 28px;
+        line-height: 105%;
+    }
+    .f{
+        width:100px;
+    }
+    .tariffinfo{
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-left: 32px
+    }
+}
+@media screen and (max-width: 1172px) {
+    .block-img{
+        min-width: 300px;
+    }
+    .tariffimg1{
+        display: none;
+    }
+    .tariffimg2{
+        display: none;
+    }
+    .rate{
+        height: 540px;
+    }
+    .tariffimg11{
+        display: block;
+        height: 540px;
+        min-width: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(../image/tariff11.png);
+    }
+    .tariffimg22{
+        display: block;
+        height: 540px;
+        min-width: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(../image/tariff22.png);
+    }
+    .item{
+        max-height: 550px;
+        max-width: 800px;
+        padding-right: 0px;
+    }
+    .allprice{
+        width: 130px;
+        height: 50px;
+    }
+    .pricepermonth{
+        width: 160px;
+        height: 50px;
+    }
+    .tarifftext{
+        gap:20px;
+    }
+    .txt-rate {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 30px;
+        margin-left: 20px;
+        max-width: 550px
+    }
+    .block-img3 {
+        
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+@media screen and (max-width: 1000px){
+    .facts2{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .f2{
+        align-items: center;
+    }
+    .txtblock{
+        align-items: center;
+        align-self: center;
+    }
+    .title{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .padding{
+        padding-top: 150px;
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+    footer{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+}
