@@ -52,7 +52,6 @@ h4{
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
-    color: white;
 }
 .bold{
     font-family: 'Jost';
@@ -60,7 +59,6 @@ h4{
     font-weight: 700;
     font-size: 36px;
     line-height: 114%;
-    color: white;
 }
 .normal{
     font-family: 'Jost';
@@ -140,6 +138,9 @@ h4{
     padding-left: 64px;
     background-color: #302E2B;
 }
+.adaptivefacts{
+    display: none;
+}
 .schtext_info{
     display: flex;
     flex-direction: column;
@@ -153,7 +154,8 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
+    color: white;
 }
 .f{
     display: flex;
@@ -171,6 +173,12 @@ h4{
     background: url(../image/maincard.jpg);
     background-repeat: no-repeat;
 }
+.block-img-horizontal{
+    display: none;
+}
+.adaptiveschtext{
+    display: none;
+}
 .facts2{
     display: flex;
     flex-direction: row;
@@ -186,8 +194,10 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 44px;
     max-width: 290px;
+    color: white;
 }
 .f2:nth-child(2){
     margin-top: 20px;
@@ -200,7 +210,6 @@ h4{
 .txtblock{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 10px;
 }
 .tariffimg11{
@@ -208,6 +217,15 @@ h4{
 }
 .tariffimg22{
     display: none;
+}
+.teacher_no_adaptive{
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+    height: 415px;
+    box-sizing: border-box;
+    padding-right: 50px;
+    background-color: #302E2B;
 }
 .teachers{
     display: flex;
@@ -220,14 +238,9 @@ h4{
     max-width: 90%;
     gap: 25px;
 }
-.item{
-    display: flex;
-    flex-direction: row;
-    width: 820px;
-    height: 415px;
-    box-sizing: border-box;
-    padding-right: 50px;
-    background-color: #302E2B;
+
+.teacherinfo_adaptive{
+    display: none;
 }
 .teacherinfo{
     display: flex;
@@ -235,6 +248,7 @@ h4{
     margin-top: 50px;
     margin-left: 50px;
     gap: 50px;
+    color: white;
 }
 .block-img2{
     display: block;
@@ -269,48 +283,37 @@ color: white;
     justify-content: space-between;
 }
 .infogifts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     border-top: 4px solid #302E2B;
     box-sizing: border-box;
     padding-top: 20px;
     width: 630px;
     max-height: 300px;
-    overflow: hidden;
 }
 .another{
     display:none;
-}
-@keyframes fadegift{
-    0% {
-        bottom: 0px;
-        opacity: 1;
-    }
-    90% {
-        bottom: 17px;
-        opacity: 0;
-    }
-    100% {
-        bottom: 100px
-    }
-}
-@keyframes fadegift2{
-    0% {
-        bottom: 17px;
-        opacity: 0;
-    }
-    100% {
-        bottom: 0px;
-        opacity: 1;
-    }
 }
 .textgift{
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 115%;
+    color: #302E2B;
 }
-.textgift{
-    animation: fadegift 1s infinite;
-    animation-delay: 150s;
+.textgiftlittle{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 134%;
+    color: #302E2B;
 }
 .block-img3{
     display: block;
@@ -321,18 +324,19 @@ color: white;
     background: url(../image/ava.png);
     margin-top: 50px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 .txt-rate{
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-top: 50px;
-    margin-left: 40px;
 }
 .nameandstars{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    color: white;
 }
 .stars{
     display: block;
@@ -341,6 +345,18 @@ color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background: url(../image/4stars.png);
+}
+.variant1comment{
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+    height: 415px;
+    box-sizing: border-box;
+    padding-right: 50px;
+    background-color: #302E2B;
+}
+.variant2comment_adaptive{
+    display: none;
 }
 .tariff{
     display: flex;
@@ -375,6 +391,7 @@ color: white;
     display: flex;
     flex-direction: column;
     gap: 50px;
+    color: white;
 }
 .tariffimg1{
     display: block;
@@ -409,6 +426,10 @@ color: white;
     background: none;
     border: 4px solid #DE6A15;
     cursor: pointer;
+}
+.pricepermonth:hover{
+    background: #DE6A15;
+    color: white;
 }
 .allprice{
     font-family: 'Jost';
@@ -447,6 +468,7 @@ color: white;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    gap: 30px;
 }
 .answer{
     max-height: 0;
@@ -462,6 +484,7 @@ color: white;
 }
 svg{
     transition: transform 0.5s;
+    min-width: 32px;
 }
 
 @keyframes fade{

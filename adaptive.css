@@ -94,16 +94,38 @@
         width: 150px;
         height: 65px;
     }
+    .allprice{
+        width: 150px;
+        height: 65px;
+    }
+    .pricepermonth{
+        width: 170px;
+        height: 65px;
+    }
     .f{
         width: 120px;
     }
     .tarifftext {
         gap: 30px;
     }
+    .rate{
+        padding-right: 64px;
+    }
+    .tariffinfo{
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 1326px){
+    .whatyouget{
+        flex-direction: column;
+        gap: 80px;
+    }
 }
 @media screen and (max-width: 1278px) {
     .schtext{
         padding-left: 40px;
+        gap: 50px;
     }
     .schtext_info{
         margin-top: 50px;
@@ -118,7 +140,11 @@
     .tariffinfo{
         margin-top: 40px;
         margin-right: 0px;
-        margin-left: 32px
+        margin-left: 32px;
+        margin-bottom: 40px;
+    }
+    .rate{
+        padding-right: 32px;
     }
 }
 @media screen and (max-width: 1172px) {
@@ -150,19 +176,6 @@
         background-repeat: no-repeat;
         background: url(../image/tariff22.png);
     }
-    .item{
-        max-height: 550px;
-        max-width: 800px;
-        padding-right: 0px;
-    }
-    .allprice{
-        width: 130px;
-        height: 50px;
-    }
-    .pricepermonth{
-        width: 160px;
-        height: 50px;
-    }
     .tarifftext{
         gap:20px;
     }
@@ -171,28 +184,17 @@
         flex-direction: column;
         gap: 40px;
         margin-top: 30px;
-        margin-left: 20px;
-        max-width: 550px
+        width: 100%;
+        max-height: 400px;
+    }
+    .variant1comment{
+        width: 750px;
+        height: 400px;
     }
     .block-img3 {
-        
         margin-top: 30px;
         margin-left: 30px;
-    }
-@media screen and (max-width: 1000px){
-    .facts2{
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        padding-left: 90px;
-        padding-right: 90px;
-    }
-    .f2{
-        align-items: center;
-    }
-    .txtblock{
-        align-items: center;
-        align-self: center;
+        margin-right: 30px;
     }
     .title{
         padding-left: 90px;
@@ -207,5 +209,363 @@
         padding-left: 90px;
         padding-right: 90px;
     }
+    .facts2{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}    
+@media screen and (max-width: 1000px){
+    .facts2{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .f2{
+        align-items: center;
+    }
+    .txtblock{
+        align-items: center;
+        align-self: center;
+    }
+    .titletext{
+        gap:10px;
+    }
+    .teacher_no_adaptive{
+        width: 800px;
+    }
+    .question svg{
+        min-width: 26px;
+        max-width: 26px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 48px;
+    }
+    h4{
+        font-size: 28px;
+    }
 }
+@media screen and (max-width: 970px){
+    .facts{
+        display: none;
+    }
+    .schtext{
+        flex-direction: column;
+        padding-left: 0px;
+        justify-content: space-between;
+        height: 700px;
+    }
+    .adaptivefacts{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        color: #302E2B;
+        justify-content: space-between;
+    }
+    .schtext_info{
+        margin-top: 40px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .block-img{
+        display: none;
+    }
+    .variant1comment{
+        width: 650px;
+        height: 450px;
+    }
+    .block-img-horizontal{
+        display: block;
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background: url(../image/horizontalimg.png);
+        background-repeat: no-repeat;
+    }
+    .tariffimg11{
+        display: none;
+    }
+    .tariffimg22{
+        display: none;
+    }
+    .qanda{
+        padding-bottom: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .padding{
+        gap: 180px;
+    }
+    .teacher_no_adaptive{
+        width: 700px;
+    }
+    
 }
+@media screen and (max-width: 850px) {
+    .infogifts{
+       width: 100%;
+    }
+    .title{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .tariff, .faq, .feedback, .whatyouget, .teachers, .school{
+        gap: 50px;
+    }
+    h2{
+        line-height: 45px;
+    }
+    h3{
+        line-height: 130%;
+    }
+    .variant1comment{
+        width: 580px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 800px){
+    .teacher_no_adaptive{
+        display: none;
+    }
+    .teacherinfo_adaptive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding-left: 32px;
+        padding-right: 32px;
+        gap: 20px;
+        padding-top: 40px;
+        width: 100%;
+        height: 750px;
+        background-color: #302E2B;
+    }
+    .block-img2{
+        max-width: 316px;
+    }
+    .statusteacher{
+        color: white;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .title{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .padding{
+        padding-top: 120px;
+        padding-right: 32px;
+        padding-left: 32px;
+        gap: 120px;
+    }
+    .school{
+        margin-bottom: 120px;
+    }
+    footer{
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin-top: 90px;
+        gap: 35px;
+    }
+    .footer{
+        width: 100%;
+    }
+    #mailandphone{
+        gap: 0px;
+        justify-content: space-between;
+        max-width: 80%;
+    }
+    .facts2{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .qanda{
+        padding-bottom: 15px;
+    }
+}
+@media screen and (max-width: 645px) {
+    .variant1comment{
+        display: none;
+    }
+    .variant2comment_adaptive{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        background-color: #302E2B;
+        gap: 30px;
+        box-sizing: border-box;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 40px;
+    }
+    .block-img3{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .namestudent{
+        display: flex;
+        color: white;
+        align-items: center;
+        gap: 32px;
+    }
+    .opinionstudent{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        height: 400px;
+    }
+    .statusstudent{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .rate{ height: 650px;}
+    .variant2comment_adaptive{
+        height: 650px;
+    }
+    .namestudent{
+        width: 300px;
+    }
+    
+}
+@media screen and (max-width: 540px){
+    #mailandphone{
+        flex-direction: column;
+        gap: 20px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    .extrabold{
+        font-size: 50px;
+    }
+    .bold{
+        font-size: 28px;
+    }
+    .textgift{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 476px) {
+    .adaptivefacts{
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+    .f{
+        width: 100%;
+    }
+    .f:nth-child(1) {
+        width: 100%;
+    }
+    .variant2comment_adaptive {
+        height: 650px;
+    }
+    .teacherinfo_adaptive{
+        gap: 30px;
+        height: 700px;
+    }
+    .title{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .tariffbtn{
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+    }
+    .tariffinfo{
+        margin-bottom: 0px;
+    }
+    .rate{
+        height: 700px;
+        padding-bottom: 40px;
+    }
+    .schtext{
+        display: none;
+    }
+    .adaptiveschtext{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        background-color: #302E2B;
+        width: 100%;
+        gap: 50px;
+        height: 100vh;   
+    }
+    .padding{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mobilepadding{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .school{
+        margin-bottom: 0;
+    }
+    .tarifftext h3{
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .feedback h3{
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .teacherstext{
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
+@media screen and (max-width: 413px) {
+    .btns{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .rate{
+        height: 800px;
+    }
+    h4{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 365px) {
+    h1{
+        font-size: 55px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .titletext{
+        gap: 0px;
+    }
+    .namestudent{
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 336px) {
+    .variant2comment_adaptive {
+        height: 740px;
+    }
+    .rate{
+        height: 870px;
+    }
+}
+

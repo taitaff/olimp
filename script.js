@@ -7,7 +7,10 @@ owl.owlCarousel({
     nav: false,
     responsive:{
         0:{
-            items: 1.2
+            items: 1
+        },
+        900:{
+            items: 1
         },
         1000:{
             items: 1.1
