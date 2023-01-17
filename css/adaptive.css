@@ -30,7 +30,7 @@
         background-color: #302E2B;
     }
     .fatcs{
-        max-width: 400px;
+        max-width: 100%;
     }
 }
 @media screen and (max-width: 1600px) {
